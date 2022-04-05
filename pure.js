@@ -74,3 +74,5 @@ function InheritSuper() {}
 InheritSuper.prototype = Page.prototype
 App.prototype = new InheritSuper()
 App.prototype.constructor = Page
+
+var app = new App()
