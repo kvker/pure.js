@@ -96,7 +96,7 @@
   PureJS.prototype.unregist = function (key) {
     this.callback[key] = null
   }
-  Pure.prototype.remove = function(key) {
+  PureJS.prototype.remove = function(key) {
     this.data[key] = null
     this.dom[key] = null
     this.callback[key] = null
